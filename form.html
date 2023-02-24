@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <form action = action.php method ="GET">
+        <div>
+        <label for ="fname">
+           First Name: 
+        </label>
+        <input type = "text" id = "fname" name= "fname" placeholder ="Enter your first name" required>
+         </div>
+        <br>
+        <div></div>
+        <label for ="lname">
+            Last Name: 
+         </label>
+         <input type = "text" id = "lname" name= "lname" placeholder ="Enter your last name" required>
+         </div>
+        <br>
+        <br>
+
+        <div>
+            <label for = "pass">Password :</label>
+            <input type = "password" id = "pass" name = "paas" maxlength = "4" placeholder = "minimum 8 characters" required>
+        </div>
+        <br>
+
+        <div>
+            <label for = "email">Email :</label>
+            <input type = "email" id = "email" name = "email" maxlength = "25" placeholder = "ABC@gmail.com" required>
+        </div>
+
+        <br>
+        <div>
+            <label for = "pass">Password :</label>
+            <input type = "password" id = "pass" name = "paas" maxlength = "4" placeholder = "minimum 8 characters">
+        </div>
+        <div>
+            <label for = "phn">Phone # : </label>
+            <input type = "tel" id = "phn" name = "phn" maxlength = "4" placeholder = "+088-">
+        </div>
+        <br>
+        <div>
+            <label for = "birthdate">Birthday :</label>
+            <input type = "date" id = "birthday" name = "birthday">
+        </div>
+        <div>
+            <label for = "q">Quantity :</label>
+            <input type = "number" id = "q" name = "q" maxlength = "4" min ="-5" max="10" value = "3" >
+        </div>
+        <div>
+            <input type="reset">
+        </div>
+        <br>
+        <div>
+            <input type = "submit">
+        </div>
+        <br>
+
+        <div>
+            <label style = color:brown><b>Department:</b></label>
+            <label for = "cse">
+                CSE
+            </label>
+            <input type="radio" id = "cse" name = "dept" value = "1">
+            <label for = "swe">
+                SWE
+            </label>
+            <input type="radio" id = "swe" name = "dept" value = "2">
+            <label for = "eee">
+                EEE
+            </label>
+            <input type="radio" id = "eee" name="dept" value = "3">
+        </div>
+
+        <div>
+            <label for = "select" style = color:blueviolet>
+                Select Payment method:
+            </label>
+            <select id = "select" name = "select">
+                <option value ="bkash">Bkash</option>
+                <option value = "dbbl">DBBL</option>
+                <option value = "rocket">Rocket</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for = "checkbox">agree</label>
+            <input type = "checkbox" id = "checkbox" name ="checkbox" value ="1">
+
+        </div>
+    </form>
+</body>
+</html>
